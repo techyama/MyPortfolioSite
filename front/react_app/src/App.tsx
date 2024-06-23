@@ -1,19 +1,13 @@
-import "./App.css";
+import { Header } from "./components/common/Header";
+import { Footer } from "./components/common/Footer";
 
 function App() {
   return (
-    <header>
-      <div>
-        <a href="#">
-          <span>TechCode</span>
-        </a>fdsagfawegwe
-        <nav>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Skills</a>
-        </nav>
-      </div>
-    </header>
+    <>
+      <Header></Header>
+      <p className="bg-red-600 text-blue-300">Hello Vite + React!</p>
+      <Footer></Footer>
+    </>
   );
 }
 
