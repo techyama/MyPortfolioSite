@@ -9,4 +9,4 @@ ENV TZ Asia/Tokyo
 RUN apk update
 RUN apk upgrade
 # gitのインストール
-RUN apk add git vim
+RUN apk add git vim openssh
