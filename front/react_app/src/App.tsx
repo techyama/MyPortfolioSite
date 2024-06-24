@@ -1,13 +1,14 @@
 import { Header } from "./components/common/Header";
 import { Footer } from "./components/common/Footer";
+import { Page } from "./pages/Page";
 
 function App() {
   return (
-    <>
+    <div className="bg-gray-900">
       <Header></Header>
-      <p className="bg-red-600 text-blue-300">Hello Vite + React!</p>
+      <Page></Page>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 
